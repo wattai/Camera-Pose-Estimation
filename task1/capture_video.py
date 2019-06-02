@@ -2,24 +2,24 @@
 """
 Created on Wed May 29 20:59:58 2019
 
-@author: imd
+@author: wattai
 """
 
 import numpy as np
 import cv2
 
-width = 640
-height = 480
-fps = 30
+WIDTH = 640
+HEIGHT = 480
+FPS = 30
 
 cap = cv2.VideoCapture(0)
-cap.set(3, width)
-cap.set(4, height)
-cap.set(cv2.CAP_PROP_FPS, fps)
+cap.set(3, WIDTH)
+cap.set(4, HEIGHT)
+cap.set(cv2.CAP_PROP_FPS, FPS)
 
 # Define the codec and create VideoWriter object
 fourcc = cv2.VideoWriter_fourcc(*'DIVX')
-out = cv2.VideoWriter('wattai.avi', fourcc, fps, (width, height))
+out = cv2.VideoWriter('output.avi', fourcc, FPS, (WIDTH, HEIGHT))
 
 while cap.isOpened():
     ret, frame = cap.read()
