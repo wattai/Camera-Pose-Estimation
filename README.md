@@ -7,7 +7,7 @@ opencv=4.1.0
 matplotlib.2.2.2  
 
 # How to run
-0. calibrate camera using camera_calibration.py
+0. Calibrate camera using camera_calibration.py
 1. Put 9*6 checkerboard in the range of webcam
 2. Run capture_video.py to take video-file which focus on the checkerboard as the training dataset
 3. Take video around the checkerboard
