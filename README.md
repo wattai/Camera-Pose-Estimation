@@ -16,3 +16,4 @@ matplotlib.2.2.2
 
 # Result
 You can see the error of the estimated camera-poses between the pose based on checkerboard adn the pose based on natural-feature.
+![an example of result](https://github.com/wattai/Task1-LabRetreat/blob/master/task1/result.PNG "result")
