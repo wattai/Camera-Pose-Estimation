@@ -1,10 +1,10 @@
 # Task1-LabRetreat
 
 # Environment 
-python=3.6  
-numpy=1.16.4  
-opencv=4.1.0  
-matplotlib.2.2.2  
+python==3.6  
+numpy==1.16.4  
+opencv==4.1.0  
+matplotlib==2.2.2  
 
 # How to run
 0. Calibrate camera using camera_calibration.py
